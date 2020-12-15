@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700);
+*{
+  font-family: 'Noto Serif';
+  box-sizing: border-box; 
+  margin: 0;
+  font-family: 'Kalam', cursive;   
+   max-width: 800px; 
+   text-align: center;
+   position: relative;
+   margin: auto;
+   padding: 1rem;
+   color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+img{
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+#inputText{
+     box-sizing: border-box;
+     display: block;
+     width: 100%;
+     min-height: 20vh;
+     margin-top: 2rem;
+     font-size: large;
+     font-family: inherit;
+     position: relative;
+     background-color: transparent;
+     color: white;
+ }
+ #outputText{
+    box-sizing: border-box;
+    width: 100%;
+   color:white;
+   background-color:transparent;
+   min-height: 15vh;
+   max-height: 15vh;
+   border: white;
+   position: relative;
+   bottom: 130px;
+ }
+   
+#btn{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50%;
+    position: relative;
+}
+footer{
+    width: 100%;
+    bottom:-10px;
+    left:365px;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+}
+
+#heading{
+    font-size: 2rem; 
+    padding: 1rem; 
+    text-align: center;
+     top: 0;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
